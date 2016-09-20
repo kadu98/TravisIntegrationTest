@@ -1,4 +1,6 @@
 # TravisIntegrationTest
+[![Build Status](https://travis-ci.org/SanderKnape/TravisIntegrationTest.svg?branch=master)](https://travis-ci.org/SanderKnape/TravisIntegrationTest)
+
 A simple application including integration tests linked to Travis CI.
 
 ## Testing the application locally
