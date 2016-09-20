@@ -9,4 +9,4 @@ $db = new PDO($connection_string, $mysql_user, $mysql_password);
 
 // TODO: at "WHERE number_calculated = NULL" statement so we don't
 // recalculate stuff
-$db->exec("UPDATE numbers SET number_calculated = number*2 WHERE number_calculated IS NULL");
+$db->exec("UPDATE numbers SET number_calculated = number*3 WHERE number_calculated IS NULL");
