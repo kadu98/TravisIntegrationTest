@@ -8,5 +8,4 @@ env:
 services:
   - mysql
 
-before_script: ./tests/setup_mysql.py
 script: ./tests/integration_test.py
