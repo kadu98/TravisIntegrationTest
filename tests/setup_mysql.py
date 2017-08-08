@@ -1,5 +1,11 @@
 #!/usr/bin/env php
 
+import os
+import json
+import datetime
+import pymysql
+import simplejson as json
+
 mysql_host = os.environ.get('MYSQL_HOST', '127.0.0.1')
 mysql_port = int(os.environ.get('MYSQL_PORT', 3306))
 mysql_username = os.environ.get('MYSQL_USERNAME', 'root')
